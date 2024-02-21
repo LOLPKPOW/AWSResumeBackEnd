@@ -4,5 +4,6 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
+        Alias: AWSResumeBackEnd
         CurrentVersion: 1
         TargetVersion: 2
