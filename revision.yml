@@ -5,5 +5,5 @@ Resources:
       Properties:
         Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
         Alias: live
-        CurrentVersion: $LATEST
+        CurrentVersion: !GetAtt arn:aws:lambda:us-east-2:853234049808:function:SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
         TargetVersion: 2
