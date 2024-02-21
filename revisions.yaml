@@ -3,7 +3,7 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
+        Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o:3
         Alias: prod
         CurrentVersion: 1
         TargetVersion: 2
