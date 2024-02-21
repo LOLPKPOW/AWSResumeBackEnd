@@ -3,7 +3,7 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: arn:aws:lambda:us-east-2:853234049808:function:SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
+        Name: "SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o"
         Alias: AWSResumeBackEnd
         CurrentVersion: 1
         TargetVersion: 2
