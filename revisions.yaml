@@ -3,7 +3,7 @@ Resources:
   - VisitorCounterFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: VisitorCounterFunction
+        Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
         Alias: AWSResumeBackEnd
         CurrentVersion: 1  # Specify the current version of your Lambda function
         TargetVersion: 2   # Specify the target version to which you want to deploy
