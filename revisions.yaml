@@ -4,5 +4,5 @@ Resources:
       Type: AWS::Serverless::Function
       Properties: 
         Code: 
-          S3Bucket: your-bucket-name  # Replace with your actual bucket name
-          S3Key: lambda_function.zip  # Replace with your ZIP file name
+          S3Bucket: pwoodresumebackend
+          S3Key: lambda_function.zip
