@@ -3,4 +3,4 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        FunctionName: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o 
+        Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o 
