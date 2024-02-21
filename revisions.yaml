@@ -1,0 +1,8 @@
+version: 0.0
+Resources:
+  - VisitorCounterFunction:
+      Type: AWS::Serverless::Function
+      Properties: 
+        Code: 
+          S3Bucket: your-bucket-name  # Replace with your actual bucket name
+          S3Key: lambda_function.zip  # Replace with your ZIP file name
