@@ -8,7 +8,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler # Adjust if your filename/handler is different
       Runtime: python3.8 
-      CodeUri: s3://pwoodresumebackend/lambda_function.py
+      CodeUri: s3://pwoodresumebackend/lambda_function.zip
       Environment:
         Variables:
           TABLE_NAME: !Ref VisitorCounterTable # Passes the table name as an environment variable
