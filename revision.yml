@@ -4,6 +4,6 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: arn:aws:lambda:us-east-2:853234049808:function:SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o:AWSResumeBackEnd
-        Alias: live
+        Alias: AWSResumeBackEnd
         CurrentVersion: 1
         TargetVersion: 2
