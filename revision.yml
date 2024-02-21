@@ -3,7 +3,6 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: AWSResumeBackEnd
-        Alias: live
+        Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
         CurrentVersion: 1
         TargetVersion: 2
