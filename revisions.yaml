@@ -1,8 +1,9 @@
 version: 0.0
 Resources:
-  - VisitorCounterFunction:
-      Type: AWS::Serverless::Function
-      Properties: 
-        Code: 
-          S3Bucket: pwoodresumebackend
-          S3Key: lambda_function.zip
+  - myLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
+        Alias: prod
+        CurrentVersion: 1
+        TargetVersion: 2
