@@ -7,3 +7,5 @@ Resources:
         Alias: AWSResumeBackEnd
         CurrentVersion: 5  # Specify the current version of your Lambda function
         TargetVersion: 5   # Specify the target version to which you want to deploy
+
+####
