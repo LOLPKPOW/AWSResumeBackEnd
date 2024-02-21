@@ -6,4 +6,4 @@ Resources:
         Name: SAMTemplateStack-VisitorCounterFunction-v1a52Jmm674o
         Alias: live
         CurrentVersion: 1
-        TargetVersion: 1
+        TargetVersion: 2
